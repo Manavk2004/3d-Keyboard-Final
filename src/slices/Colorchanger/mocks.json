@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Badly"
+						}
+					}
+				]
+			},
+			"des": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Veniam ex cupidatat non nostrud proident pariatur pariatur cupidatat cillum tempor nulla minim adipisicing. Nulla ut eiusmod in proident aliqua tempor fugiat veniam velit occaecat commodo. Consectetur consequat dolor adipisicing."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
