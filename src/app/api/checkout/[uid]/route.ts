@@ -9,10 +9,10 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export async function POST(
   request: NextRequest,
-  { params }: { params: { uid: string } }
+  { params }: { params: Promise<{ uid: string }> }
 ) {
   try {
-    const { uid } = params; 
+    const { uid } = await params; 
 
     if (!uid) {
       return NextResponse.json({ error: "Missing Product UID" }, { status: 400 });

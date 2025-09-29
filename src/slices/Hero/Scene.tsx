@@ -67,7 +67,7 @@ function Scene() {
 
 
 
-    let [scalingFactor, setScalingFactor] = useState(1)
+    const [scalingFactor, setScalingFactor] = useState(1)
 
 
 

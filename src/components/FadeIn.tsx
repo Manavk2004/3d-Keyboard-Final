@@ -4,7 +4,7 @@ import clsx from "clsx";
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/all";
-import { useReducer, useRef } from "react";
+import { useRef } from "react";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger)
 

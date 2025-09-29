@@ -107,10 +107,7 @@ export function Switch({ color, hexColor, ...restProps}: SwitchProps) {
 
   }
 
-  const handlePointerUp = (event: ThreeEvent<PointerEvent>) => {
-    event.stopPropagation();
-    releaseSwitch
-  }
+
 
   const handlePointerLeave = () => {
     releaseSwitch()
